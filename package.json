@@ -2,7 +2,7 @@
   "name": "echoapp",
   "version": "1.0.0",
   "description": "Echo App",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha --timeout 10000 --exit",
     "start": "node -r dotenv/config server.js"
@@ -21,7 +21,7 @@
     "chai": "^4.5.0",
     "chai-http": "^4.4.0",
     "mocha": "^11.7.5",
-    "sinon": "^19.0.2"
+    "sinon": "^21.0.1"
   },
   "directories": {
     "test": "test"
