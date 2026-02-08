@@ -13,7 +13,7 @@ app.post('/', (req, res) => {
 
 if (require.main === module) {
     app.listen(PORT, () => {
-        console.log('Echo server listening on port ${PORT}');
+        console.log('Echo server listening on port ' + PORT);
     });
 };
 
