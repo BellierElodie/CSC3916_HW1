@@ -19,8 +19,8 @@ server.on("request", (request, response) => {
         console.error(err);
     });
 });
-server.listen(process.env.PORT || 8008, () => {
-    console.log("Server listening at 8008");
+server.listen(process.env.PORT || 3000, () => {
+    console.log("Server listening at 3000");
 });
 
 module.exports = server; // for testing
